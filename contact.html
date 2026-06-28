@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Pehiāweri Ahuwhenua Trust</title>
+  <meta name="description" content="Contact the Pehiāweri Ahuwhenua Trust for inquiries or further information about the Pehiāweri B1B kaupapa." />
+  <meta name="keywords" content="Working today for a brighter, and better tomorrow" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-title">PEHIĀWERI AHUWHENUA TRUST</span>
+        <span class="brand-tagline">oranga whenua &nbsp;·&nbsp; oranga reo</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="panui.html">Pānui</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="donate.html" class="btn--donate">Donate</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero">
+    <div class="page-hero__bg" style="background-image:url('https://static.wixstatic.com/media/409469_145fff9838594530972c85ee0dbc28a1~mv2.jpg/v1/fill/w_1200,h_400,al_c,q_85,enc_avif,quality_auto/409469_145fff9838594530972c85ee0dbc28a1~mv2.jpg');"></div>
+    <div class="page-hero__content">
+      <h1>Contact Us</h1>
+      <div class="gold-bar"></div>
+      <p>For any inquiries or further information about the Pehiāweri B1B kaupapa, please get in touch.</p>
+    </div>
+  </section>
+
+  <!-- ===== PHOTO STRIP ===== -->
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0.5rem;padding:1.5rem;max-width:1100px;margin:0 auto;">
+    <img src="https://static.wixstatic.com/media/409469_145fff9838594530972c85ee0dbc28a1~mv2.jpg/v1/fill/w_300,h_200,al_c,q_85,enc_avif,quality_auto/409469_145fff9838594530972c85ee0dbc28a1~mv2.jpg" alt="" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:4px;" />
+    <img src="https://static.wixstatic.com/media/409469_8fb72c1a7cf24cfd9913b7bece7dea3d~mv2.jpg/v1/fill/w_300,h_200,al_c,q_85,enc_avif,quality_auto/409469_8fb72c1a7cf24cfd9913b7bece7dea3d~mv2.jpg" alt="" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:4px;" />
+    <img src="https://static.wixstatic.com/media/409469_40cf01d906c54102b7dd58535f344987~mv2.jpg/v1/fill/w_300,h_200,al_c,q_85,enc_avif,quality_auto/409469_40cf01d906c54102b7dd58535f344987~mv2.jpg" alt="" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:4px;" />
+    <img src="https://static.wixstatic.com/media/409469_8bdd89ebe0214e9a952329a80344246a~mv2.jpg/v1/fill/w_300,h_200,al_c,q_85,enc_avif,quality_auto/409469_8bdd89ebe0214e9a952329a80344246a~mv2.jpg" alt="" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:4px;" />
+    <img src="https://static.wixstatic.com/media/409469_84076359ecbb4d24addc3769438886a5~mv2.jpg/v1/fill/w_300,h_200,al_c,q_85,enc_avif,quality_auto/409469_84076359ecbb4d24addc3769438886a5~mv2.jpg" alt="" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:4px;" />
+    <img src="https://static.wixstatic.com/media/409469_6645ab8a06db48159fefac2071b0d5b9~mv2.jpg/v1/fill/w_300,h_200,al_c,q_85,enc_avif,quality_auto/409469_6645ab8a06db48159fefac2071b0d5b9~mv2.jpg" alt="" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:4px;" />
+  </div>
+
+  <!-- ===== CONTACT LAYOUT ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- FORM -->
+        <div class="contact-form">
+          <h2>Send Us a Message</h2>
+          <div class="gold-bar" style="width:60px;height:4px;background:#c9a84c;margin:0.75rem 0 1.5rem;"></div>
+          <p>We look forward to connecting with you and answering any questions you may have.</p>
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Kia ora" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Whānau" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your message here…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--dark" style="width:100%;justify-content:center;">Send Message</button>
+            <div class="form-success" id="form-success">
+              ✓ Tēnā koe — your message has been sent!
+            </div>
+          </form>
+        </div>
+
+        <!-- INFO -->
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          <div class="gold-bar" style="width:60px;height:4px;background:#c9a84c;margin:0.75rem 0 1.5rem;"></div>
+          <p>
+            Alternatively, follow us on Facebook for regular updates and community engagement.
+          </p>
+
+          <div class="contact-detail">
+            <div class="contact-detail__icon">📍</div>
+            <div class="contact-detail__text">
+              <strong>Address</strong>
+              <span>99 Ngunguru Road, Glenbervie<br>Whangārei, 0112</span>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-detail__icon">✉️</div>
+            <div class="contact-detail__text">
+              <strong>Email</strong>
+              <a href="/cdn-cgi/l/email-protection#cabaafa2a3abbdafb8a3a8fba88aada7aba3a6e4a9a5a7"><span class="__cf_email__" data-cfemail="0373666b6a627466716a61326143646e626a6f2d606c6e">[email&#160;protected]</span></a>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-detail__icon" style="background:#1877f2;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.93-1.956 1.886v2.286h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+            </div>
+            <div class="contact-detail__text">
+              <strong>Facebook</strong>
+              <a href="https://www.facebook.com/groups/386359691428103/" target="_blank" rel="noopener">
+                Join our Facebook Group
+              </a>
+            </div>
+          </div>
+
+          <a href="https://www.facebook.com/groups/386359691428103/" target="_blank" rel="noopener" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.93-1.956 1.886v2.286h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+            Follow on Facebook
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-title">PEHIĀWERI AHUWHENUA TRUST</div>
+          <div class="brand-tagline">oranga whenua · oranga reo</div>
+          <p>Papakāinga for the uri of Ngāti Hau, Ngunguru Road, Glenbervie, Whangārei.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="panui.html">Pānui</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="donate.html">Donate</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="/cdn-cgi/l/email-protection#6c1c0904050d1b091e050e5d0e2c0b010d0500420f0301"><span class="__cf_email__" data-cfemail="6c1c0904050d1b091e050e5d0e2c0b010d0500420f0301">[email&#160;protected]</span></a></li>
+            <li><a href="https://www.facebook.com/groups/386359691428103/" target="_blank" rel="noopener">Facebook Group</a></li>
+          </ul>
+          <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin-top:0.75rem;">
+            99 Ngunguru Road, Glenbervie<br>Whangārei, 0112
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2023 He mea hanga e Niwha Creative Ltd</span>
+        <span>Pehiāweri Ahuwhenua Trust</span>
+      </div>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/main.js"></script>
+</body>
+</html>
